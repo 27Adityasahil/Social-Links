@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  border-radius: 10px;
+  padding: 2rem;
+  background: hsl(0, 0%, 20%);
+  text-align: center;
+  width: 300px;
+  box-shadow: 8px 8px #c8c4c4;
+}
+.container div {
+  align-items: center;
+}
+.container img {
+    width: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 6px solid #5dd2f6;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+#location {
+  color: hsl(178, 95%, 60%);
+  margin-bottom: 1rem;
+}
+.bio {
+  font-size: 16px;
+  /* font-size: 0.9rem; */
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: hsl(0, 1%, 76%);
+}
+
+.btns {
+  background-color: hsl(0, 1%, 28%);
+  font-weight: 600;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btns a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+.btns:hover {
+  cursor: pointer;
+  background-color: hsl(209, 91%, 65%);
+}
